@@ -4,7 +4,7 @@
 
 Please do not report security problems in public issues, pull requests or discussions.
 
-Report them privately on GitHub: open the repository's **Security** tab and click **Report a vulnerability**. Only Cedana's maintainers can see the report.
+Report them privately on GitHub: open the repository's **Security** tab and click **Report a vulnerability**. Only Cedana's maintainers can see the report. If a repository has no **Report a vulnerability** button, report it through the [Security tab of cedana/cedana](https://github.com/cedana/cedana/security).
 
 Please include:
 
