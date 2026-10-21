@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Read the docs
+    url: https://docs.cedana.ai
+    about: Install and use Cedana on Kubernetes, on Slurm, or with the cedana command.
+  - name: Report a security problem
+    url: https://github.com/cedana/cedana/security/advisories/new
+    about: Report it privately on GitHub. Do not open a public issue.
+  - name: Talk to Cedana
+    url: https://cedana.com/demo/
+    about: Ask for a demo or a call about your deployment.
