@@ -12,7 +12,7 @@ The single-GPU and multi-GPU-on-a-single-node tiers ship in production today. Mu
 
 ### Who uses Cedana
 
-Cedana works with inference platforms, supercomputing centers, government and academic labs, pharma R&D, quant funds, and neoclouds, including Caltech.
+Cedana works with inference platforms, supercomputing centers, government and academic labs, pharma R&D, quant funds, and neoclouds, including Caltech and the Minnesota Supercomputing Institute.
 
 ### Where to start
 
