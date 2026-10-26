@@ -1,0 +1,38 @@
+name: Bug report
+description: Something in Cedana does not work as the docs say.
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you ran, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: The commands or manifests, in order, so we can run them.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: The output of `cedana version`, the Helm chart version or the image tag.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Linux distribution and kernel, container runtime, Kubernetes or Slurm version, GPU and driver.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: The daemon log (`/var/log/cedana-daemon.log`) or the helper pod log, if you have it.
+      render: shell
